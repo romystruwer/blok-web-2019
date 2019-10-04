@@ -1,0 +1,135 @@
+html {
+    margin; 0;
+}
+
+body {
+    background-image: url("/images/beach2.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    font-family: "Nexa bold", "trebuchet ms", sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+
+/* navigation bar */
+
+header {
+    background: #fff;
+    color: #00d66c;
+    font-family: "Nexa bold" "trebuchet ms", sans-serif;
+    font-size: 1rem;
+    box-shadow: 1px 1px 6px #b2b2b2;
+}
+
+header a img {
+    top: 1em;
+    left: 1em;
+    margin-right: auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0.5em;
+    color: #00d66c;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+
+}
+
+header ul li:first-child {
+    margin-right: auto;
+}
+nav a {
+    text-decoration: none;
+    margin: 0.5em;
+}
+
+nav a:link {
+    color: #00d66c;
+}
+
+nav a:visited {
+   color: #00d66c;
+}
+
+nav a:hover {
+    color: #2800a0;
+}
+
+/* main */
+
+form {
+    background-color: #2800a0;
+    border-radius: 1em;
+    color: #fff;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+main {
+
+    background-color: #fff;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    }
+
+article {
+
+}
+
+/* aside */
+
+aside {
+     background-color: #00d66c;
+     padding-left: 5em;
+     padding-right: 5em;
+     padding-top: 1em;
+     padding-bottom: 1em;
+}
+
+/* footer */
+
+footer {
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 6px #b2b2b2;
+}
+
+/* ipad view */
+
+@media (min-width: 40em) {
+
+    body {
+        grid-template-columns: 1fr 2fr 3fr 4fr;
+        grid-template-rows: 4em 22em ;
+    }
+
+    header {
+        font-size: 1.25rem;
+        grid-column: 1 / 5;
+    }
+
+    form {
+        grid-column: 1 / 2;
+        margin-bottom: 1em;
+    }
+    main {
+        grid-column: 2 / 5;
+    }
+    aside, footer {
+        grid-column: 1 / 5;
+    }
+
+}
+
+/* desktop view */
+
+@media (min-width: 60em;)

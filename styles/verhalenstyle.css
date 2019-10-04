@@ -1,0 +1,93 @@
+.katerhtml {
+    background-image: url(/images/Kater%20-%20iPhone.jpg)
+}
+
+.neerslachtightml {
+    background-image: url(/images/Neerslachtig%20-%20iPhone.jpg)
+}
+
+.verrasthtml {
+    background-image: url(/images/Verrast%20-%20iPhone.jpg)
+}
+
+/*-----navigatiebar-----*/
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+ul {
+    background-color: #FFFFFF;
+    color: #01D76C;
+    font-family: "Nexa Bold", "Trebuchet MS Bold", sans-serif;
+    font-size: 1.125em;
+    list-style: none;
+    align-content: left;
+    padding: 0em 0.5em;
+    margin: 0;
+
+}
+
+
+ul li {
+    display: inline-flex;
+    flex-direction: row;
+    padding-right: 0 25px 0 25px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #00D962;
+    padding: 0.5em 0.5em;
+    margin: 0.3em;
+
+}
+
+li a:hover {
+    color: #2800a0;
+}
+
+/*-----main-----*/
+
+p {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*-----footer-----*/
+
+footer ul {
+    text-align: center;
+    background-color: #EFEFEF;
+}
+
+footer ul li a {
+    color: #606060;
+    font-family: "Nexa Bold";
+    font-size: 0.9em;
+
+}
+
+footer {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #EFEFEF;
+    padding: 0.5em;
+    text-align: center;
+}
+
+footer > p {
+    font-family: "Nexa Light", "Trebuchet MS", sans-serif;
+    font-size: 0.9em;
+    color: #606060;
+}
+
+footer img {
+    height: 3.75em;
+    width: 3.75em;
+}
+
